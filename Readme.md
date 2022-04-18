@@ -7,7 +7,8 @@ FireFoxはV3に対応したら動くようになります(2022/04時点では未
 
 ## How to install
 
-1. リポジトリをZipでダウンロードします.
+1. リポジトリをZipでダウンロードします.  
+右上のCODE → Download Zipでダウンロードできます.
 1. Zipを解凍します.
 1. dlsite-darkのフォルダを読み込ませます。  
 参考:https://oxynotes.com/?p=8856#4
