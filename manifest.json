@@ -1,7 +1,7 @@
 {
-  "name": "momoiro-ext3",
+  "name": "dlsite-dark",
   "description": "For momoiro code extension",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "manifest_version": 3,
   "icons": {
     "16": "icons/icon-16.png",
@@ -9,18 +9,19 @@
     "128": "icons/icon-128.png"
   },
   "action": {
-    "default_title": "momoiro-ext3"
+    "default_title": "dlsite-dark"
   },
   "background": {},
   "content_scripts": [
     {
-      "matches": ["http://momoirocode.web.fc2.com/*"],
-      "js": ["js/momoirocode.web.fc2.com.js"]
+      "matches": ["https://www.dlsite.com/*","https://dlsite.com/*"],
+      "css": ["css/dlsite-dark.css"]
     }
   ],
   "permissions": [],
   "host_permission":[
-    "http://momoirocode.web.fc2.com/*"
+    "https://www.dlsite.com/*",
+    "https://dlsite.com/*"
   ],
   "web_accessible_resources": [],
   "content_security_policy":{
