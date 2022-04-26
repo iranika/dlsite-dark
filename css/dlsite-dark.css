@@ -1,13 +1,5 @@
-* {
-    background-color: #222;
-    color: #aaa;
-}
-* > * {
-    background-color: #222;
-    color: #aaa;
-}
 
-#header > header > div > div.headerCore-sub > div.globalSearch > form > div.globalSearchSelect > select {
-    color: #222;
-    background-color: #aaa;
+html {
+    filter: brightness(0.5
+    );
 }
